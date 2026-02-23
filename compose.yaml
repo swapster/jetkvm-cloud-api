@@ -1,9 +1,5 @@
 name: jetkvm-cloud-api
 
-networks:
-  jetkvm:
-    driver: bridge
-
 services:
   db:
     image: postgres
